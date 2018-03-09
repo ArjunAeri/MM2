@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 28c1d55fb6f213347a84f5c7b5c78a38
+timeCreated: 1483415474
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - maincamera: {instanceID: 0}
+  - claw: {fileID: 100006, guid: 937d7fe6c53035c439e8738424d4eda6, type: 3}
+  - animationcamera: {instanceID: 0}
+  - camerasource: {instanceID: 0}
+  - blackout: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

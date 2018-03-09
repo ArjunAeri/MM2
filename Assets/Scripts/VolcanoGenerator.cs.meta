@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 32c3b07f28db9ee4a8750fc0a6b7db07
+timeCreated: 1475018173
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - volcano: {fileID: 198000013517308498, guid: 5f38161e41c1f374a864a2911da9c2b8,
+      type: 2}
+  - volcanobase: {fileID: 153294, guid: 50fba2f163418df47b4f53d5eae25cf2, type: 2}
+  - weirdrock: {fileID: 156138, guid: 79ac2e693257d644d9667d22a764a0e6, type: 2}
+  - rectrock: {fileID: 162886, guid: 8d4ad672fe2bd3d45872cc5259ceb393, type: 2}
+  - sandstorm: {fileID: 198000013820858332, guid: c5b1d668fe41cb6418280eacd9143da4,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
