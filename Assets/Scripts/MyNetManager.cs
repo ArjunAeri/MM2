@@ -18,9 +18,7 @@ public class MyNetManager : NetworkManager
 
 	public NetworkDiscovery discovery;
 
-	public GameObject HCSPC, LAVASPC;
-
-	public GameObject [] HCSP, LavaSP;
+	public NetworkStartPosition [] LavaSP;
 
 	private NetworkConnection cacheHost;
 
@@ -92,11 +90,10 @@ public class MyNetManager : NetworkManager
 
 	private void startRallyCross()
 	{
-		LAVASPC.SetActive (false);
-		HCSPC.SetActive (true);
-	
-		multiplayer.gameObject.SetActive (false);
-		rallycross.gameObject.SetActive (false);
+		Destroy (LavaSP[0]);
+		Destroy (LavaSP[1]);
+
+
 		RCOvveride = true;
 
 		makeGame ();
